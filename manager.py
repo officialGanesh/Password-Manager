@@ -6,7 +6,7 @@ def main(length):
     """ Main Script Function """
 
     str_passcode = Generate_password(length)
-    
+    secret_hash(str_passcode)
 
 def Generate_password(password_length):
     """ Generating the password """
@@ -25,6 +25,11 @@ def Generate_password(password_length):
     print(secret_code)
     return secret_code
 
+def secret_hash(data):
+    """ Making a hash of a secret code """
+
+    passwords_hash = hashlib.md5(data.encode("UTF-8")).hexdigest()
+    print(passwords_hash)
 
 
 if __name__ == "__main__":
