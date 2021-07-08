@@ -14,6 +14,7 @@ This is a command-line-project integrated with MongoDB.
 4️⃣ Random
 5️⃣ Fire
 6️⃣ PyInputPlus
+7️⃣ Getpass
 
 # TASKS
 
