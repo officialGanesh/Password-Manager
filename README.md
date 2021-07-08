@@ -30,9 +30,8 @@ Based upon the user actions like, GENERATE-NEW-PASSWORD or SEARCH THE SAVED PASS
 
 1️⃣ Ask the main password to run the program.
 2️⃣ Ask for hint.
-3️⃣ Return the hashed password and id.
-4️⃣ Again ask for hint to view actuall password.
-5️⃣ Return actuall password.
+3️⃣ Return all the hashed passwords matched with hint.
+
 
 #### 🔗 LINKS
 
